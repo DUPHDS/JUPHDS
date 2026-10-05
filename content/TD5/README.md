@@ -3,6 +3,7 @@
 **Exercice 1 :**
 
 Nous voulons créer une ferme virtuelle avec des animaux et des fonctions qui vous permettent de découvrir la ferme.
+
     1. Créez une classe Ferme qui doit être initialisée avec le nom de la ferme et qui crée automatiquement une liste vide pour stocker les animaux.
     2. Créez une variable qui s'initialise à 0 lors de la création et compte le nombre d'animaux.
     3. Créez une classe Animal qui s'initialise avec le nom et l'âge de l'animal.
@@ -14,6 +15,7 @@ Nous voulons créer une ferme virtuelle avec des animaux et des fonctions qui vo
 **Exercice 2 :**
 
 Nous étudions les données relatives aux patients admis en 2021 dans deux hôpitaux de Bordeaux. Le fichier « patients.csv » contient les données relatives aux patients et le fichier « visites.csv » contient les données relatives aux visites des patients (dans ce fichier, ID est l'identifiant du patient concerné par la visite ; dans la question 4, vous verrez que l'identifiant de la visite sera généré automatiquement).
+
     1. Créez une classe Hospital prenant comme paramètres l'emplacement de l'hôpital, un répertoire de ses patients et un répertoire des visites de ses patients. Ajoutez les fonctions : 
         a. add_patient ajoute le patient au répertoire.
         b. remove_patient supprime le patient du répertoire.
