@@ -14,7 +14,7 @@ automatically creates an empty list for storing animals.
 and each animal.
 7. Add two classes, Sheep and Duck, which inherit from Animal and have a cryfunction, which returns the animal's cry, and a str function, which returns the same thing as the animal class, but with the cry of the Sheep and the Duck.
 
-**Exercice 2 :**
+**Exercise 2 :**
 
 We are studying data on patients admitted in 2021 to two hospitals in Bordeaux. The
 "patients.csv" file contains patient data and the "visits.csv" file contains data on patient visits
