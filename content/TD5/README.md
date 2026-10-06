@@ -1,36 +1,52 @@
 # TD5 : Programmation orientée objet
 
-**Exercice 1 :**
+**Exercise 1 :**
 
-Nous voulons créer une ferme virtuelle avec des animaux et des fonctions qui vous permettent de découvrir la ferme.
-
-    1. Créez une classe Ferme qui doit être initialisée avec le nom de la ferme et qui crée automatiquement une liste vide pour stocker les animaux.
-    2. Créez une variable qui s'initialise à 0 lors de la création et compte le nombre d'animaux.
-    3. Créez une classe Animal qui s'initialise avec le nom et l'âge de l'animal.
-    4. Ajoutez une méthode str pour afficher le nom et l'âge de l'animal.
-    5. Ajoutez la méthode add animal à la classe Ferme.
-    6. Ajoutez la méthode str à la classe Ferme, affichant le nom de la ferme, le nombre d'animaux et chaque animal.
-    7. Ajoutez deux classes, Mouton et Canard, qui héritent de Animal et ont une fonction cry, qui renvoie le cri de l'animal, et une fonction str, qui renvoie la même chose que la classe animal, mais avec le cri du mouton et du canard.
+We want to create a virtual farm with animals and functions that allow you to
+and discover the farm.
+1. Create a Farm class that must be initiated with the farm's name and that
+automatically creates an empty list for storing animals.
+2. Create a variable that initiates at 0 during creation and counts the number of animals.
+3. Create an Animal class that initiates with the animal's name and age.
+4. Add a str method to display the animal's name and age.
+5. Add the add animal method to the Farm class.
+6. Add the str method to the Farm class, displaying the farm name, number of animals
+and each animal.
+7. Add two classes, Sheep and Duck, which inherit from Animal and have a cryfunction, which returns the animal's cry, and a str function, which returns the same thing as the animal class, but with the cry of the Sheep and the Duck.
 
 **Exercice 2 :**
 
-Nous étudions les données relatives aux patients admis en 2021 dans deux hôpitaux de Bordeaux. Le fichier « patients.csv » contient les données relatives aux patients et le fichier « visites.csv » contient les données relatives aux visites des patients (dans ce fichier, ID est l'identifiant du patient concerné par la visite ; dans la question 4, vous verrez que l'identifiant de la visite sera généré automatiquement).
+We are studying data on patients admitted in 2021 to two hospitals in Bordeaux. The
+"patients.csv" file contains patient data and the "visits.csv" file contains data on patient visits
+(in this file, ID is the identifier of the patient concerned by the visit; in question 4, you'll see
+that the visit identifier will be generated automatically).
+1. Create a Hospital class taking as parameters the hospital location, a directory of its
+patients, and a directory of its patients' visits. Add the functions :
 
-    1. Créez une classe Hospital prenant comme paramètres l'emplacement de l'hôpital, un répertoire de ses patients et un répertoire des visites de ses patients. Ajoutez les fonctions : 
-        a. add_patient ajoute le patient au répertoire.
-        b. remove_patient supprime le patient du répertoire.
-        c. add_visit ajoute une visite à l'hôpital.
-        d. get_patient_id qui renvoie le patient correspondant à l'identifiant donné.
-        e. get_visites_patient qui renvoie les visites d'un patient par identifiant.
-        f. get_visite_by_date qui renvoie les visites qui ont eu lieu un certain jour.
-        g. str of hospital doit afficher l'emplacement de l'hôpital et le nombre de patients.
-        h. len doit afficher le nombre de patients dans l'hôpital. 
-    2. Créez une classe Patient prenant comme paramètres l'identifiant du patient, sa date de naissance, une liste de visites et son sexe. Ajoutez les fonctions :
-    3. add_visit, qui ajoute une visite au patient.
-    4. str of Patient, qui affiche l'identifiant du patient, sa date de naissance et son sexe.
-    5. Ouvrez le fichier « patients.csv » en mode lecture et, pour chaque ligne, créez un patient et ajoutez-le à un répertoire de patients.
-    6. Créez une classe Visites qui prend en entrée un patient, un hôpital, le motif de la visite, la date et qui possède un identifiant. L'identifiant de la visite doit augmenter à chaque fois qu'un objet Visit est créé.
-    7. Créez une classe VisiteUrgente, qui est une sous-classe de Visites. Ces visites comportent 4 données supplémentaires permettant d'évaluer l'état du patient : s'il saigne, sa fréquence cardiaque, sa tension artérielle et s'il est conscient à son arrivée aux urgences. (0 pour Non et 1 pour Oui)
-    8. À partir du fichier « visits.csv », créez des hôpitaux et des visites associés aux patients. Les hôpitaux doivent contenir uniquement les patients et les visites qui ont eu lieu dans cet hôpital.
-    9. Affichez le nombre de patients pour chaque sexe.
-    10. Affichez le nombre de visites pour chaque motif pour chaque hôpital.
+- add_patient adds the patient to the directory.
+-  remove_patient removes the patient from the directory.
+-   add_visit adds a visit to the hospital.
+-  et_patient_id which returns the patient corresponding to the given id.
+-  get_visites_patient which returns a patient's visits by ID.
+-   get_visite_by_date which returns visits that took place on a certain day.
+-  tr of hospital should display the hospital location and number of patients.
+-  len should display the number of patients in the hospital.
+
+2. Create a Patient class taking as parameters the patient's identifier, date of birth, a list
+of visits and gender. Add the functions :
+
+- add_visit, which adds a visit to the patient.
+-  str of Patient, which displays the patient's ID, date of birth and gender.Master PHDS
+
+4. Open the "patients.csv" file in read mode and for each line create a patient and add it
+to a patient directory.
+5. Create a Visit class which takes as input a patient, hospital, reason for visit, date and
+which has an ID. The visit ID must increase each time a Visit object is created.
+6. Create a VisiteUrgente class, which is a subclass of Visites. These visits have 4
+additional pieces of data for assessing the patient's situation: whether he's bleeding,
+his heart rate, his blood pressure and whether he's conscious when he arrives at the
+emergency room. (O for No and 1 for Yes)
+7. From the "visits.csv" file, create hospitals and visits associated with patients.
+Hospitals must contain patients and visits that took place only in that hospital.
+8. Display the number of patients for each gender.
+9. Display the number of visits for each reason for each hospital.
