@@ -1,9 +1,9 @@
-# Bienvenue sur votre espace Jupyter Lite du DU SDSP
+# Welcome to your Jupyter Lite workspace for the DU SDSP
 
-Vous y trouverez un espace dédié à la pratique de la programmation en Python, ainsi que tous les notebooks de vos cours.
+Here, you will find a dedicated space for practicing Python programming, as well as all the notebooks for your courses.
 
-Premièrement, les dossiers TD* répertorient les 5 premiers travaux dirigés qui vont vous initier à la programmation en Python.
+First, the TD* folders contain the first five tutorials, which will introduce you to Python programming.
 
-Ensuite, le dossier data regroupe les exercices sur le cancer du poumon, ainsi que les exercices par niveau et les exercices pratiques.
+Next, the data folder contains the exercises on lung cancer, as well as the exercises organized by level and the practical exercises.
 
-Vous pouvez créer vos propres notebooks dans l’onglet « Launcher », dans la section « Notebook », puis en cliquant sur « Python (Pyodide) ».
+You can create your own notebooks from the “Launcher” tab, in the “Notebook” section, by clicking on “Python (Pyodide)”.
