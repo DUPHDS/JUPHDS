@@ -28,7 +28,7 @@ grades and returns a dictionary of students' names with their associated grades.
 **Exercise 4 :**
 
 Write a function called justOne() that removes duplicates from a list, leaving only one copy of each
-item. Items can be numbers or strings.Notion of object oriented
+item. Items can be numbers or strings.
 programming
 
 **Exercise 5 :**
