@@ -1,20 +1,28 @@
-# TD4 : Paquet, erreur et programmation orientée objet
+# TD4 : Package, errors and object oriented programming
 
 **Exercice 1 :**
 
-Vous allez travailler sur le fichier « Iris.csv ».
-    1. Utilisez panda pour importer le fichier.
-    2. Pour chaque espèce, calculez le nombre d'individus.
-    3. Pour chaque espèce, calculez la moyenne de chaque paramètre : SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm.
-    4. Affichez les lignes où les fleurs ont une SepalLengthCm inférieure ou égale à 5.
-    5. Affichez les lignes où les fleurs ont un SepalLengthCm inférieure ou égale à 5 et un PetalLengthCm supérieure ou égale à 1,5.
-    6. Affichez les lignes par ordre décroissant en fonction du paramètre PetalWidthCm.
-
+You are going to work on the "Iris.csv" file.
+1. Use panda to import the file.
+2. For each species, calculate the number of individuals.
+3. For each species, calculate the average of each parameter: SepalLengthCm,
+SepalWidthCm, PetalLengthCm, PetalWidthCm.
+4. Display lines where flowers have a SepalLengthCm less than or equal to 5.
+5. Display rows where flowers have SepalLengthCm less than or equal to 5 and
+PetalLengthCm greater than or equal to 1.5.
+6. Display lines in descending order according to the PetalWidthCm parameter.
 
 **Exercice 2 :**
 
-Écrivez une fonction qui affiche la table de multiplication d'un nombre saisi par l'utilisateur. La fonction doit générer une erreur si le nombre n'est pas compris entre 0 et 10. La fonction doit également gérer le cas où l'utilisateur aurait saisi une chaîne de caractères et lui demander de recommencer. 
-Exercice 3 :
+Write a function that displays the multiplication table for a number entered by the user. The
+function should generate an error if the number is not between 0 and 10. The function must
+also handle the possibility that the user may have entered a string of characters and be
+asked to start again.
 
-    1. Écrivez une classe d'articles, pour laquelle vous pouvez spécifier un nom, un type d'article, un prix et une quantité.
-    2. Écrivez une classe magasin avec un nom et une liste d'articles à vendre. Cette classe doit pouvoir ajouter un article à sa liste de vente, vendre et réapprovisionner un article déjà présent dans sa liste. L'impression de cette classe affiche les types d'articles en vente dans le magasin et la quantité restante. Notez que si un article est épuisé, il ne peut plus être vendu.   
+**Exercice 3 :**
+
+1. Write an item class, for which you can specify a name, item type, price and quantity.
+2. Write a store class with a name and a list of items for sale. This class must be able to
+add an item to its sales list, sell and replenish an item already in its list. The printout
+of this class shows the types of items on sale in the store and the quantity remaining.
+Note that if an item is sold out, it can no longer be sold.
