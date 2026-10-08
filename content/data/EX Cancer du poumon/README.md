@@ -1,83 +1,59 @@
-# Exercice Cancer du poumon 
+# Lung Cancer Exercise
 
 
-## Questions Niveau facile
+## Basic Level Questions
 
-1. Affichez les 5 premières lignes de l'ensemble de données.
-2. Comptez le nombre de valeurs uniques dans la colonne « LUNG_CANCER ».
-3. Vérifiez s'il y a des valeurs manquantes dans l'ensemble de données.
-4. Affichez les noms des colonnes dans l'ensemble de données.
-5. Calculez l'âge moyen des personnes dans l'ensemble de données.
-6. Affichez les types de données de toutes les colonnes.
-7. Vérifiez la forme de l'ensemble de données (lignes et colonnes).
-8. Trouvez l'âge maximum et minimum dans l'ensemble de données.
-9. Vérifiez s'il y a des lignes en double dans l'ensemble de données.
-10. Filtrez et affichez toutes les lignes où les individus ont un cancer du poumon.
-11. Affichez le nombre d'individus atteints et non atteints d'un cancer du poumon.
-12. Vérifiez si l'ensemble de données est équilibré en termes de genre.
-13. Affichez les valeurs uniques dans la colonne « SMOKING ».
-14. Trouvez l'âge médian des individus dans l'ensemble de données.
-15. Trouvez le pourcentage d'individus atteints de maladies chroniques.
+1. Display the first 5 rows of the dataset.
+2. Count the number of unique values in the 'LUNG_CANCER' column.
+3. Check for missing values in the dataset.
+4. Display the column names in the dataset.
+5. Find the average age of the individuals in the dataset.
+6. Display the data types of all columns.
+7. Check the shape of the dataset (rows and columns).
+8. Find the maximum and minimum age in the dataset.
+9. Check if there are duplicate rows in the dataset.
+10. Filter and display all rows where individuals have lung cancer.
+11. Display the count of individuals with and without lung cancer.
+12. Check if the dataset is balanced with respect to gender.
+13. Display the unique values in the 'SMOKING' column.
+14. Find the median age of individuals in the dataset.
+15. Find the percentage of individuals who have chronic diseases.
 
-## Questions Niveau intermédiaire
 
-1. Déterminez la répartition des sexes dans l'ensemble de données.
-2. Calculez le pourcentage de personnes atteintes d'un cancer du poumon qui sont
-fumeurs.
-3. Créez une nouvelle colonne « AGE_GROUP » qui classe les personnes dans les
-catégories « Young » (<40 ans), « Middle-aged »
-4. Déterminez la corrélation entre « SMOKING » et « LUNG_CANCER » à l'aide d'un
-tableau croisé.
-5. Tracez la répartition par âge des personnes chez lesquelles un cancer du poumon
-a été diagnostiqué.
-6. Vérifiez le nombre de personnes présentant des « YELLOW_FINGERS » dans les
-différentes tranches d'âge.
-7. Déterminez la proportion de personnes souffrant de douleurs thoraciques qui sont
-atteintes d'un cancer du poumon.
-8. Comparez l'âge moyen des personnes atteintes d'un cancer du poumon et celles
-qui ne le sont pas.
-9. Comptez le nombre de personnes qui présentent à la fois une respiration sifflante
-et un essoufflement.
-10. Analysez la relation entre la consommation d'alcool et le cancer du poumon.
-11. Visualisez la répartition par sexe des personnes atteintes d'un cancer du
-poumon.
-12. Identifiez les trois principaux symptômes les plus associés au cancer du poumon.
-13. Tracez la relation entre l'âge et l'apparition du cancer du poumon.
-14. Analysez le pourcentage de personnes souffrant d'anxiété qui sont également
-15. Vérifiez s'il existe des personnes présentant tous les symptômes marqués « Oui
-».
+## Intermediate Level Questions
 
-## Questions Niveau avancé
+1. Find the distribution of genders in the dataset.
+2. Calculate the percentage of individuals with lung cancer who are smokers.
+3. Create a new column 'AGE_GROUP' that categorizes individuals as 'Young' (<40), 'Middle-
+4. Find the correlation between 'SMOKING' and 'LUNG_CANCER' using a crosstab.
+5. Plot the age distribution of individuals diagnosed with lung cancer.
+6. Check the number of individuals with 'Yellow Fingers' across different age groups.
+7. Find the proportion of individuals with chest pain who have lung cancer.
+8. Compare the average age of individuals with and without lung cancer.
+9. Count the number of individuals who experience both wheezing and shortness of breath.
+10. Analyze the relationship between alcohol consumption and lung cancer.
+11. Visualize the gender distribution among individuals with lung cancer.
+12. Identify the top 3 symptoms most associated with lung cancer.
+13. Plot the relationship between age and lung cancer occurrence.
+14. Analyze the percentage of individuals with anxiety who also have lung cancer.
+15. Check if there are individuals with all symptoms marked as 'Yes'.
 
-1. Construisez un modèle de régression logistique pour prédire le cancer du poumon
-à partir de l'ensemble de données (après encodage des variables catégorielles).
-2. Identifiez les trois caractéristiques les plus fortement associées au cancer du
-poumon à l'aide de l'importance des caractéristiques.
-3. Effectuez un test du chi carré pour vérifier l'association entre « SMOKING » et «
-LUNG_CANCER ».
-4. Utilisez une carte thermique pour visualiser les corrélations entre les variables
-encodées dans l'ensemble de données.
-5. Construisez un classificateur d'arbre de décision pour prédire le cancer du
-poumon et évaluez sa précision.
-6. Effectuez une validation croisée pour évaluer le modèle de régression logistique.
-7. Analysez l'importance des caractéristiques à l'aide d'un classificateur Random
-Forest.
-8. Comparez la précision des modèles de régression logistique et d'arbre de
-décision.
-9. Implémentez un classificateur K-Nearest Neighbors (KNN) et évaluez ses
-performances.
-10. Effectuez un réglage des hyperparamètres pour le classificateur d'arbre de
-décision à l'aide de GridSearchCV.
-11. Effectuez une analyse en composantes principales (ACP) pour réduire la
-dimensionnalité et visualiser l'ensemble de données.
-12. Évaluer les performances du modèle Random Forest à l'aide d'une matrice de
-confusion.
+    
+## Advanced Level Questions
+
+1. Build a logistic regression model to predict lung cancer based on the dataset (after encoding categorical variables).
+2. Identify the top 3 features most strongly associated with lung cancer using feature importance.
+3. Perform a chi-square test to check the association between 'SMOKING' and
+4. Use a heatmap to visualize correlations between encoded variables in the dataset.
+5. Build a decision tree classifier to predict lung cancer and evaluate its accuracy.
+6. Perform cross-validation to evaluate the logistic regression model.
+7. Analyze feature importance using a Random Forest Classifier.
+8. Compare the accuracy of logistic regression and decision tree models.
+9. Implement a K-Nearest Neighbors (KNN) classifier and evaluate its performance.
+10. Perform hyperparameter tuning for the decision tree classifier using GridSearchCV.
+11. Perform a Principal Component Analysis (PCA) to reduce dimensionality and visualize the dataset.
+12. Evaluate the performance of the Random Forest model using a confusion matrix.
 from sklearn.metrics import confusion_matrix
-13. Visualiser le classificateur d'arbre de décision.
-14. Mettre en œuvre un classificateur de machine à vecteurs de support (SVM) et
-évaluer sa précision.
-from sklearn.svm import SVC
-15. Comparer les performances des modèles à l'aide d'un graphique à barres.
-
-
-atteintes d'un cancer du poumon.
+13. Visualize the decision tree classifier.
+14. Implement a support vector machine (SVM) classifier and evaluate its accuracy. from sklearn.svm import SVC
+15. Compare model performance using a bar chart.
